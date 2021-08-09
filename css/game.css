@@ -1,0 +1,82 @@
+/* CSS Document */
+
+html, body {
+	
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #333;
+    background-color: #366b74;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+	
+h1 {
+    color: #366b74;
+    font-family: 'Creepster', cursive;
+    font-size: 48px;
+    text-shadow: 1px 1px #000;
+	margin: 2px;}
+	
+p{
+    font-size: 16px;
+    
+}
+button {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px; }
+	
+div#content {
+    width: 700px;
+    margin:0 auto;
+	padding: 20px;
+    
+	background-color: #BC9C55 ;
+    
+}
+	
+div#controls {
+	text-align: right; }
+	
+div#controls span {
+	font-weight: bold;
+	color: #990000; }
+	
+div#controls button {
+	margin-left: 20px; }
+	
+.gameimage{
+    width:120px;
+    
+}
+.timer{
+    color: #BC6155;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px #000;
+    display: none;
+}
+
+div#gamespace img { position: absolute; } 
+
+div#gamespace {
+    position: relative;
+	margin: 20px;
+	padding: 10px;
+	height: 350px;
+	background-color: #BC6155;
+	border: 2px solid #CCC;
+    cursor: url(../img/MoonlightGreatsword.png), pointer;
+    
+}
+
+   
+    
+
+
+div#controls span {
+	font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px #000;
+	color: #BC6155; }
